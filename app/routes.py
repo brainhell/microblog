@@ -2,5 +2,5 @@ from app import app
 
 @app.route('/')
 @app.route('/index')
-def indedx():
+def index():
 	return 'Hello, world!'
