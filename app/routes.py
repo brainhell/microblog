@@ -5,5 +5,5 @@ from app import app
 def index():
 	return 'Hello, world!'
 
-if __name__ == '__main':
+if __name__ == '__main__':
 	app.run(debug=True)
